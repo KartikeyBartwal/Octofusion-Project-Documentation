@@ -17,3 +17,4 @@ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 2) Octofusion web-server running (flask, SqlAlchemcy + remaining frontend part)
 
 All that is left is to make the airflow scheduler run alongside these with proper network and message exachange worth level of connectivity 
+-> Created a complete new instance of airflow config.yaml. This version is able to pass all the permissions and hence runs seamlessly. Integrating it with the existing project now
