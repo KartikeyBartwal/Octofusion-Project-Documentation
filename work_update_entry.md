@@ -1,0 +1,9 @@
+
+
+
+Merging of my airflow scheduler, PosgreSQL and pgAdmin with Shreshth's SqlAlchemy, flask servers, routes, models and configurations
+
+6th October
+
+-> Connected pgAdmin and PostgreSQL using a common network connector coded in the compose file.
+-> Conflicting issues with the airflow, so now focusing on debugging airflow and getting it back to a healthy state.
