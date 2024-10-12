@@ -3,7 +3,7 @@
 
 Merging of my airflow scheduler, PosgreSQL and pgAdmin with Shreshth's SqlAlchemy, flask servers, routes, models and configurations
 
-6th October
+6 - 10th October
 
 -> Connected pgAdmin and PostgreSQL using a common network connector coded in the compose file.
 -> Conflicting issues with the airflow, so now focusing on debugging airflow and getting it back to a healthy state.
@@ -18,3 +18,8 @@ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 
 All that is left is to make the airflow scheduler run alongside these with proper network and message exachange worth level of connectivity 
 -> Created a complete new instance of airflow config.yaml. This version is able to pass all the permissions and hence runs seamlessly. Integrating it with the existing project now
+
+
+10-13th October
+-> Setting up the database tables with the necessary samples
+-> These will ensure the subsequent steps in the machine learning tasks instead of solely waiting for the data connectors
